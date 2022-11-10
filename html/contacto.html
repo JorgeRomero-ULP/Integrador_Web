@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/codigo.js"></script>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../img/logo.png" alt="logo" id="logof"></a>
+            <div class="logo-h">
+                <h1><a href="../index.html" class="none">Guadalupe</a></h1>
+                <h4 class="logo-h"><a href="../index.html" class="none">Regaleria y bazar</a></h4>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav-button"><img src="../img/icon/grid.png" alt="" class="nav-button-img"><a href="../index.html"
+                class="nav-button-link">Inicio</a></div>
+            <div class="nav-button"><img src="../img/icon/pin_rounded_circle1.png" alt="" class="nav-button-img"><a href="../html/encuentranos.html"
+                    class="nav-button-link">Encuentranos</a></div>
+        </div>
+    </header>
+    <main>
+        <div class="cont-form">
+            <div class="form-elem">
+                <h1>Guadalupe regalos</h1>
+            </div>
+            <div class="form-elem">
+                <p>Si no encontraste lo que estabas buscando en nuestro sitio web o tienes preguntas, comentarios o
+                    sugerencias sobre Guadalupe regalos y nuestros productos, por favor no dudes en contactarte con
+                    nosotros en el formulario a continuación</p>
+            </div>
+            <div class="form-elem">
+                <form action="#" name="miForm" method="get" class="form-item">                
+                    <label for="nom" class="form-item-label">NOMBRE</label><br>
+                    <input type="text" name="nom" id="nom" class="form-item-input"><br>
+                    <label for="ema" class="form-item-label">EMAIL</label><br>
+                    <input type="text" name="ema" id="ema" class="form-item-input"><br>
+                    <label for="eda" class="form-item-label">EDAD</label><br>
+                    <input type="text" name="eda" id="eda" class="form-item-input"><br>
+                    <label for="ciu" class="form-item-label">CIUDAD</label>
+                    <select name="ciu" id="ciu" class="form-item-input">
+                        <option value="">Elija una opcion</option>
+                        <option value="buenosaires">Buenos Aires</option>
+                        <option value="catamarca">Catamarca</option>
+                        <option value="chaco">Chaco</option>
+                        <option value="chubut">Chubut</option>
+                        <option value="entrerios">Entre Rios</option>
+                        <option value="rionegro">Rio Negro</option>
+                        <option value="salta">salta</option>
+                        <option value="santacruz">Santa Cruz</option>
+                        <option value="santafe">Santa Fe</option>
+                        <option value="tucuman">Tucuman</option>
+                        <option value="cordoba">Cordoba</option>
+                        <option value="formosa">Formosa</option>
+                        <option value="jujuy">Jujuy</option>
+                        <option value="lapampa">La Pampa</option>
+                        <option value="larioja">La Rioja</option>
+                        <option value="mendoza">Mendoza</option>
+                        <option value="misiones">Misiones</option>
+                        <option value="neuquen">Neuquen</option>
+                        <option value="sanjuan">San Juan</option>
+                        <option value="sanluis">San Luis</option>
+                        <option value="santiagodelestero">Santiago del Estero</option>
+                        <option value="tierradelfuego">Tierra del Fuego</option>
+                        <option value="otro">Soy extranjero</option>
+                    </select><br>                    
+                    <label for="men" class="form-item-label">MENSAJE</label><br>
+                    <textarea name="men" id="men" class="form-item-textarea" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar" class="form-item-buttom" onclick="return validar()">
+                    <input type="reset" value="Limpiar" class="form-item-buttom">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <div class="logo">
+                <a href="../index.html"><img src="../img/logo.png" alt="logo" id="logof"></a>
+                <div>
+                    <h1><a href="../index.html" class="none">Guadalupe</a></h1>
+                    <h4><a href="../index.html" class="none">Regaleria y bazar</a></h4>
+                </div>
+            </div>
+            <div>
+                <span><a href="https://es-la.facebook.com/" class="none"><img src="../img/icon/facebook.png" alt="facebook" class="nav-button-img">Facebook</a></span>
+                <span id="logof"><a href="https://www.instagram.com/" class="none"><img src="../img/icon/instagram.png" alt="instagram" class="nav-button-img">Instagram</a></span>
+            </div>
+        </div>
+        <div class="footer-logo bar">
+            <h3><a href="../index.html" class="none"><img src="../img/icon/globe_network.png" alt="" class="nav-button-img">guadalupe@gmail.com</a></h3>
+            <h3><a href="https://www.gmail.com/" class="none"><img src="../img/icon/google.png" alt="" class="nav-button-img">guadalupe@gmail.com</a></h3>
+            <h3><a href="../html/encuentranos.html" class="none"><img src="../img/icon/pin_rounded_circle1.png" alt="" class="nav-button-img">Felipe Velazques 234</a></h3>
+        </div>
+        <div class="footer-logo bar">
+            <h3><img src="../img/icon/call.png" alt="" class="nav-button-img">Tel: 2664-353668</h3>
+            <h3><img src="../img/icon/call.png" alt="" class="nav-button-img">Tel: 2664-454689</h3>
+        </div>
+        <div class="footer-logo bar">
+            <h3><img src="../img/icon/calendar.png" alt="" class="nav-button-img">Dias y horarios:</h3>
+            <h3>lunes a viernes de 9:00 a 17:00 hs y</h3>
+            <h3>sábados de 9:00 a 13:00 hs</h3>
+        </div>
+    </footer>
+</body>
+
+</html>
